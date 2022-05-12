@@ -1,0 +1,1 @@
+cd ~ && wget https://gist.githubusercontent.com/sleepycrow/30d47bc0392129fa85c8b8ddded9086c/raw/postinstall.sh && chmod +x postinstall.sh && sudo ./postinstall.sh
