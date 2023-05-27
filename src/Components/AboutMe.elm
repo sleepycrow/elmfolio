@@ -14,7 +14,7 @@ render =
             [ div []
                 [ p [] [ strong [] [ text "Cześć!" ] ]
                 , p []
-                    [ Markdown.toHtml [] ("I am Daniel Romero, a passionate developer with a keen eye for aesthetics and usability. "
+                    [ Markdown.toHtml [] ("I am sleepycrow, a passionate developer with a keen eye for aesthetics and usability. "
                         ++"I am primarily a _web_ developer, having started creating websites in **PHP** back in primary school. "
                         ++"Currently, I primarily write **JavaScript** and am very familiar with its ecosystem, as well as many of its "
                         ++"most commonly used frameworks, conventions and best practices. "

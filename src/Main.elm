@@ -91,7 +91,7 @@ view model =
                 [ canvas [ id "grid", style "pointer-events" "none", height 540 ] [] ]
             , div [ id "hero-content", class (if model.loaded then "hero__content hero__content--visible" else "hero__content") ]
                 [ h1 [] [ text "Z", sup [] [ text "Z", sup [] [ text "Z" ] ] ]
-                , h3 [] [ text "Hi, I'm Daniel Romero!" ]
+                , h3 [] [ text "Hi, I'm sleepycrow!" ]
                 , p [] [ text "A full-stack developer based in Cracow. Let's work together!" ]
                 ]
             ]
@@ -106,13 +106,14 @@ view model =
             , ul [ class "flex-technologies" ]
                 (List.map renderTechnologyIcon
                     [ ("javascript-plain", "JavaScript")
+                    , ("typescript-plain", "TypeScript")
                     , ("nodejs-plain", "Node.js")
                     , ("vuejs-plain", "Vue.js")
                     , ("html5-plain", "HTML5 & CSS3")
                     , ("php-plain", "PHP")
                     , ("mysql-plain", "MySQL")
                     , ("lua-plain", "Lua")
-                    , ("python-plain", "Python")
+                    , ("react-original", "React.js")
                     , ("wordpress-plain", "Wordpress")
                     , ("woocommerce-plain", "WooCommerce")
                     , ("godot-plain", "Godot")
@@ -134,7 +135,7 @@ view model =
             ]
         
         , section [ class "projects" ]
-            [ header [] [ text "Professional Projects" ]
+            [ header [] [ text "Professional Experience" ]
             , ul [ class "project-grid" ]
                 (List.map renderProjectTile [Ekartmagnesy])
             ] 
@@ -145,7 +146,7 @@ view model =
                 [ text "I am open for opportunites and would love to join your team!"
                 , br [] []
                 , text "Feel free to reach out to me by e-mail at "
-                , a [ href "mailto:hello@sleepycrow.one" ] [ text "hello@sleepycrow.one" ]
+                , a [ href "mailto:hello@sleepycrow.dev" ] [ text "hello@sleepycrow.dev" ]
                 , text "."
                 ]
             ]
